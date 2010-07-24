@@ -1,0 +1,6 @@
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerLogic\bin\Debug\GamePadUtilities.dll
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerLogic\bin\Debug\GamePadUtilities.pdb
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerLogic\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerLogic\obj\Debug\GamePadUtilities.dll
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerLogic\obj\Debug\GamePadUtilities.pdb
