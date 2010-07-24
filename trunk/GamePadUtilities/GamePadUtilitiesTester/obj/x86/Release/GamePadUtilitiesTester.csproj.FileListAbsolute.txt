@@ -1,0 +1,14 @@
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\bin\Release\GamePadUtilitiesTester.exe.config
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\bin\Release\GamePadUtilitiesTester.exe
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\bin\Release\GamePadUtilitiesTester.pdb
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\bin\Release\GamePadUtilities.dll
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\bin\Release\GamePadUtilities.pdb
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\GamePadUtilitiesTester.Form1.resources
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\GamePadUtilitiesTester.Properties.Resources.resources
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\ResGen.read.1.tlog
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\ResGen.write.1.tlog
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\GamePadUtilitiesTester.exe
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\GameControllerLogic\GameControllerTester\obj\x86\Release\GamePadUtilitiesTester.pdb
