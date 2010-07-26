@@ -1,6 +1,0 @@
-C:\Users\Glen\documents\visual studio 2010\Projects\GameControllerLogic\GameControllerLogic\bin\Debug\GameControllerLogic.dll
-C:\Users\Glen\documents\visual studio 2010\Projects\GameControllerLogic\GameControllerLogic\bin\Debug\GameControllerLogic.pdb
-C:\Users\Glen\documents\visual studio 2010\Projects\GameControllerLogic\GameControllerLogic\bin\Debug\Microsoft.Xna.Framework.dll
-C:\Users\Glen\documents\visual studio 2010\Projects\GameControllerLogic\GameControllerLogic\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Glen\documents\visual studio 2010\Projects\GameControllerLogic\GameControllerLogic\obj\Debug\GameControllerLogic.dll
-C:\Users\Glen\documents\visual studio 2010\Projects\GameControllerLogic\GameControllerLogic\obj\Debug\GameControllerLogic.pdb
