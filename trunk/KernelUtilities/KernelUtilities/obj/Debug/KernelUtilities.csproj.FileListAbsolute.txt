@@ -1,0 +1,5 @@
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\bin\Debug\KernelUtilities.dll
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\bin\Debug\KernelUtilities.pdb
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Debug\KernelUtilities.dll
+C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Debug\KernelUtilities.pdb
