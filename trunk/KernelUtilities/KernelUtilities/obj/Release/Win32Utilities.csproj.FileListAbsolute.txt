@@ -1,5 +1,0 @@
-C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowUtilities\bin\Release\Win32Utilities.dll
-C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowUtilities\bin\Release\Win32Utilities.pdb
-C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Release\ResolveAssemblyReference.cache
-C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Release\Win32Utilities.dll
-C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Release\Win32Utilities.pdb
