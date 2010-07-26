@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePad360", "GC360\GamePad360.csproj", "{28A798B7-C2E1-4A4D-A746-D390F7C03AF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePad360", "GamePad360\GamePad360.csproj", "{28A798B7-C2E1-4A4D-A746-D390F7C03AF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
