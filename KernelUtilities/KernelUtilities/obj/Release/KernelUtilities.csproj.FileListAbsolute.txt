@@ -1,5 +1,0 @@
-C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\bin\Release\KernelUtilities.dll
-C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\bin\Release\KernelUtilities.pdb
-C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Release\ResolveAssemblyReference.cache
-C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Release\KernelUtilities.dll
-C:\Users\Glen\Documents\Visual Studio 2010\Projects\WindowUtilities\WindowUtilities\obj\Release\KernelUtilities.pdb
