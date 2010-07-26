@@ -1,0 +1,12 @@
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\bin\Release\WindowsUtilitiesTester.exe.config
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\obj\x86\Release\WindowsUtilitiesTester.Form1.resources
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\obj\x86\Release\WindowsUtilitiesTester.Properties.Resources.resources
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\obj\x86\Release\ResGen.read.1.tlog
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\obj\x86\Release\ResGen.write.1.tlog
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\bin\Release\WindowsUtilitiesTester.exe
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\bin\Release\WindowsUtilitiesTester.pdb
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\bin\Release\Win32Utilities.dll
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\bin\Release\Win32Utilities.pdb
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\obj\x86\Release\WindowsUtilitiesTester.exe
+C:\Users\Glen\documents\visual studio 2010\Projects\WindowUtilities\WindowsUtilitiesTester\obj\x86\Release\WindowsUtilitiesTester.pdb
