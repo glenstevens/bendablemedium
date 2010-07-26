@@ -1,0 +1,77 @@
+﻿<Window x:Class="WoW360wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WoW360wpf.UserControls"
+        Title="WoW 360" Width="370" Height="450"
+        Closing="Window_Closing" Loaded="Window_Loaded" ResizeMode="CanMinimize" VerticalAlignment="Stretch">
+    <Window.Resources>
+        <!-- style used on text in status bar to show elipses (...) when text is cut off -->
+        <Style TargetType="TextBlock" x:Key="StatusBarTextBlock">
+            <Setter Property="TextWrapping" Value="NoWrap" />
+            <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+            <Setter Property="Padding" Value="2,0" />
+        </Style>
+
+        <!-- since we are using a Seperator, but not as an immediate child of the StatusBar, we will make use of that style manually -->
+        <!-- thanks to WineNCheese for this one - http://tinyurl.com/byh9ac -->
+        <Style TargetType="Separator" BasedOn="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}">
+            <Setter Property="Margin" Value="2,0" />
+        </Style>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="23" />
+        </Grid.RowDefinitions>
+        <Label Content="Profile" Grid.ColumnSpan="2"></Label>
+        <ComboBox Name="SettingsProfile" Grid.Row="1" Margin="5 1" SelectionChanged="SettingsProfile_SelectionChanged"></ComboBox>
+        <Button Name="NewProfile" Content="New" Grid.Row="1" Grid.Column="2" Margin="5 1"></Button>
+        <TabControl Name="PreferencesTabs" Grid.Row="3" Grid.ColumnSpan="2" TabStripPlacement="Top">
+            <TabItem Name="OptionsTabItem" Header="Options" >
+                <local:UserOptions x:Name="ucOptions"></local:UserOptions>
+            </TabItem>
+            <TabItem Name="KeyBindingTabItem" Header="KeyBinding">
+                <local:UserKeyBinding x:Name="ucKeyBinding"></local:UserKeyBinding>
+            </TabItem>
+            <TabItem Name="DebuggerTabItem" Header="Debugger">
+                <local:DebugOutput x:Name="ucDebug"></local:DebugOutput>
+            </TabItem>
+        </TabControl>
+        <StatusBar Grid.Row="4" Grid.RowSpan="1" HorizontalAlignment="Left" Margin="0,0,0,0" Name="statusBar1" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.Column="0">
+            <!-- the root element of our StatusBar is a Grid where we will define the sections of our StatusBar-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <!-- field one -->
+                    <ColumnDefinition Width="*" />
+                    <!-- status field -->
+                </Grid.ColumnDefinitions>
+
+                <!-- Current Active Window Display -->
+                <DockPanel LastChildFill="True" Grid.Column="0">
+                    <Separator DockPanel.Dock="Right" />
+                    <TextBlock Style="{StaticResource StatusBarTextBlock}" Name="CurrentActiveDisplay" />
+                </DockPanel>
+
+                <!-- status field -->
+                <!-- the text in this field (and the error field below) can be long, and needs to be truncated if necessary 
+               with an elipses(..). the elipses on the TextBlock is setup by the StatusBarTextBlock Style (as the 
+               previous TextBlocks use as well), but since this Column's width is * instead of Auto, they aren't allowed 
+               to grow indefinitely, so they will truncate the text (which is what we want) -->
+                <DockPanel LastChildFill="True" Grid.Column="2">
+                    <Separator DockPanel.Dock="Left" />
+                    <TextBlock Style="{StaticResource StatusBarTextBlock}" />
+                </DockPanel>
+            </Grid>
+        </StatusBar>
+    </Grid>
+</Window>
