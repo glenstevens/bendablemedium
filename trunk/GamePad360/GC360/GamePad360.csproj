@@ -8,8 +8,8 @@
     <ProjectGuid>{28A798B7-C2E1-4A4D-A746-D390F7C03AF4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GC360</RootNamespace>
-    <AssemblyName>GC360</AssemblyName>
+    <RootNamespace>GamePad360</RootNamespace>
+    <AssemblyName>GamePad360</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -41,6 +41,23 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GamePadUtilities\ButtonStateEventArgs.cs" />
+    <Compile Include="GamePadUtilities\GamePadButtons.cs" />
+    <Compile Include="GamePadUtilities\GamePadEventArgs.cs" />
+    <Compile Include="GamePadUtilities\GamePadNumber.cs" />
+    <Compile Include="GamePadUtilities\GamePads.cs" />
+    <Compile Include="GamePadUtilities\GamePadThumbSticks.cs" />
+    <Compile Include="GamePadUtilities\GamePadTriggers.cs" />
+    <Compile Include="GamePadUtilities\ThumbStickStateEventArgs.cs" />
+    <Compile Include="GamePadUtilities\TriggerStateEventArgs.cs" />
+    <Compile Include="KernelUtilities\KeyboardKeys.cs" />
+    <Compile Include="KernelUtilities\KeyboardUtilities.cs" />
+    <Compile Include="KernelUtilities\ModifierKeys.cs" />
+    <Compile Include="KernelUtilities\MouseButtons.cs" />
+    <Compile Include="KernelUtilities\MouseUtilities.cs" />
+    <Compile Include="KernelUtilities\RECT.cs" />
+    <Compile Include="KernelUtilities\WindowUtilities.cs" />
+    <Compile Include="KernelUtilities\WMessages.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
