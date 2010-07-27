@@ -1,23 +1,20 @@
 ﻿using System.ComponentModel;
 using System.Windows.Forms;
-using GameControllerLogic;
+using GamePadUtilities;
 using System;
 using System.Threading;
-using Win32Utilities;
+using KernelUtilities;
 
-namespace GC360
+namespace GamePad360
 {
     public partial class MainWindow : Form
     {
-        const string SettingsFileName = "settings.xml";
         const int ControllerThreadTimeoutMs = 20;
         const int WindowThreadTimeoutMs = 5000;
-        GameController _gc;
+		GamePads _gc;
         BackgroundWorker _controllerWorker;
         BackgroundWorker _windowWorker;
         WoWLogic _logic;
-        //SettingsCollection _settingsCollection;
-        //Settings _settings;
 
         volatile bool _done;
 
@@ -34,12 +31,10 @@ namespace GC360
             WindowState = Properties.Settings.Default.MainWindowState;
         }
 
-        private void MainWindow_Load(object sender, System.EventArgs e)
+        private void MainWindow_Load(object sender, EventArgs e)
         {
             try
             {
-                //CreateSettingsFile();
-                //LoadSettings();
                 InitializeGameController();
                 InitializeLogic();
                 StartThreads();
@@ -53,14 +48,13 @@ namespace GC360
 
         void InitializeGameController()
         {
-            _gc = new GameController();
+			_gc = new GamePads();
         }
 
         void InitializeLogic()
         {
             _logic = new WoWLogic();
             _logic.AttachEvents(_gc);
-            //_logic.InitializeSettings(_settings);
         }
 
         void StartThreads()
@@ -83,7 +77,7 @@ namespace GC360
                     return;
                 }
 
-                _gc.UpdateControllerState(GameController.ControllerNumber.One);
+                _gc.UpdateControllerState(GamePadNumber.One);
 
                 // sleep for a bit
                 Thread.Sleep(ControllerThreadTimeoutMs);
@@ -102,8 +96,7 @@ namespace GC360
 
                 IntPtr activeWindowHandle = WindowUtilities.GetActiveWindow();
 
-                BeginInvoke(new MethodInvoker(delegate()
-                {
+                BeginInvoke(new MethodInvoker(delegate {
                     _logic.WindowHandle = activeWindowHandle;
                 }));
 

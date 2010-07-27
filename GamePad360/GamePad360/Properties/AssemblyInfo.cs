@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GC360")]
+[assembly: AssemblyTitle("GamePad360")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bendable Medium")]
-[assembly: AssemblyProduct("GC360")]
+[assembly: AssemblyProduct("GamePad360")]
 [assembly: AssemblyCopyright("Copyright © Bendable Medium 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e300b710-d2d8-4bc2-86f9-7f6038419f33")]
+[assembly: Guid("f5f20fd9-7a2c-430c-837a-0aeee430ed60")]
 
 // Version information for an assembly consists of the following four values:
 //

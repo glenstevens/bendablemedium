@@ -1,4 +1,4 @@
-﻿namespace GC360
+﻿namespace GamePad360
 {
     partial class MainWindow
     {

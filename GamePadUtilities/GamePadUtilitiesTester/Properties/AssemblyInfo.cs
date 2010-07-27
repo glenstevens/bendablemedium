@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GameControllerTester")]
+[assembly: AssemblyTitle("GamePadUtilitiesTester")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bendable Medium")]
-[assembly: AssemblyProduct("GameControllerTester")]
+[assembly: AssemblyProduct("GamePadUtilitiesTester")]
 [assembly: AssemblyCopyright("Copyright © Bendable Medium 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ea1932df-84fd-40c4-901c-6243a53d9de0")]
+[assembly: Guid("ef7d1275-04ff-4afa-a9d7-1fc6d41c469f")]
 
 // Version information for an assembly consists of the following four values:
 //
