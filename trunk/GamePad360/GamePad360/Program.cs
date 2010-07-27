@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace GC360
+namespace GamePad360
 {
     static class Program
     {

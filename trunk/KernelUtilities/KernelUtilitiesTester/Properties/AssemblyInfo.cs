@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WindowsUtilitiesTester")]
+[assembly: AssemblyTitle("KernelUtilitiesTester")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bendable Medium")]
-[assembly: AssemblyProduct("WindowsUtilitiesTester")]
+[assembly: AssemblyProduct("KernelUtilitiesTester")]
 [assembly: AssemblyCopyright("Copyright © Bendable Medium 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("be75490c-99cb-4eae-abfc-ad82c45bd669")]
+[assembly: Guid("6788e732-f0d3-44fb-b906-748e7a8d3d64")]
 
 // Version information for an assembly consists of the following four values:
 //

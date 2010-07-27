@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePad360.VS8", "GamePad360\GamePad360.VS8.csproj", "{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Debug|x86.ActiveCfg = Debug|x86
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Debug|x86.Build.0 = Debug|x86
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Release|x86.ActiveCfg = Release|x86
+		{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
