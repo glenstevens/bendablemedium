@@ -104,7 +104,7 @@ namespace KernelUtilities
             uint msg = GetKeypressWM(pressed);
 
             // lParam is always 0 for button press and <shrug> for released
-            IntPtr lParam = pressed ? IntPtr.Zero : (IntPtr)0xC0000000;
+            IntPtr lParam = pressed ? IntPtr.Zero : (IntPtr)0xC000000;
 
             // If the key is pressed, press the modifier first
             if (pressed)

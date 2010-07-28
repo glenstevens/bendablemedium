@@ -30,8 +30,8 @@ namespace GamePad360
         #endregion Enums
 
         GamePadThumbSticks _moveStick = GamePadThumbSticks.Left;
-        double _mouseLookSensitivity = 1.0;
-        double _cursorMoveSensitivity = 1.0;
+        double _mouseLookSensitivity = 2.0;
+        double _cursorMoveSensitivity = 2.0;
         //double _cursorCenterOffsetX = 0.0;
         //double _cursorCenterOffsetY = 0.0;
         bool _paused;
@@ -118,12 +118,10 @@ namespace GamePad360
 
         	if (triggerValue > 0.5f)
         	{
-        		//EnumAdd(_triggersPressed, trigger);
 				_triggersPressed = EnumAdd(_triggersPressed, trigger);
         	}
         	else
         	{
-        		//EnumRemove(_triggersPressed, trigger);
 				_triggersPressed = EnumRemove(_triggersPressed, trigger);
         	}
         }
@@ -146,21 +144,19 @@ namespace GamePad360
         		if (Math.Abs(x) < 0.1) x = 0;
         		if (Math.Abs(y) < 0.1) y = 0;
 
-        		// NOTE: need to update outside this callback, update every frame
         		// BUG: cannot move in diagonals
         		// BUG: in cursorMode the screen slowly creeps upward
-        		// BUG: none of the enum controlled input work (triggers, left stick)
         		// Update the position of the mouse, don't send mouse moves until
         		// a click is made (in cursor mode), or switch back to look mode
         		System.Drawing.Point pos = new System.Drawing.Point();
         		pos.X = Cursor.Position.X + (int)(x * (_cursorMode ? _cursorMoveSensitivity : _mouseLookSensitivity));
         		pos.Y = Cursor.Position.Y - (int)(y * (_cursorMode ? _cursorMoveSensitivity : _mouseLookSensitivity));
 
-				if (_cursorMode)
-				{
-					Cursor.Position = pos;
-					//MouseUtilities.SendMouseMove(WindowHandle, Cursor.Position.X, Cursor.Position.Y);
-				}
+                Cursor.Position = pos;
+                //if (_cursorMode)
+                //{
+                //    MouseUtilities.SendMouseMove(WindowHandle, Cursor.Position.X, Cursor.Position.Y);
+                //}
         	}
         }
 
@@ -423,36 +419,6 @@ namespace GamePad360
             OnButtonStateChanged(args.ControllerNum, args.Button, args.Pressed);
         }
         #endregion Events
-
-		//static bool EnumHas(Movements flag, Movements value)
-		//{
-		//    return (flag & value) == value;
-		//}
-
-		//static Movements EnumAdd(Movements flag, Movements value)
-		//{
-		//    return flag | value;
-		//}
-
-		//static Movements EnumRemove(Movements flag, Movements value)
-		//{
-		//    return flag & ~value;
-		//}
-
-		//static bool EnumHas(GamePadTriggers flag, GamePadTriggers value)
-		//{
-		//    return (flag & value) == value;
-		//}
-
-		//static GamePadTriggers EnumAdd(GamePadTriggers flag, GamePadTriggers value)
-		//{
-		//    return flag | value;
-		//}
-
-		//static GamePadTriggers EnumRemove(GamePadTriggers flag, GamePadTriggers value)
-		//{
-		//    return flag & ~value;
-		//}
 
 		static bool EnumHas<T>(T type, T value)
 		{
