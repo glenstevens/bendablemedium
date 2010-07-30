@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePadUtilities.VS8", "GamePadUtilities\GamePadUtilities.VS8.csproj", "{12EA016E-8AB7-4263-8A1E-971AF3926506}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePadUtilities", "GamePadUtilities\GamePadUtilities.csproj", "{12EA016E-8AB7-4263-8A1E-971AF3926506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePadUtilitiesTester.VS8", "GamePadUtilitiesTester\GamePadUtilitiesTester.VS8.csproj", "{1609792E-BF2E-4212-BDEA-032E91552818}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePadUtilitiesTester", "GamePadUtilitiesTester\GamePadUtilitiesTester.csproj", "{1609792E-BF2E-4212-BDEA-032E91552818}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
