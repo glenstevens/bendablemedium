@@ -1,0 +1,17 @@
+﻿Objectives:
+- Generic interface for saving settings
+- Allow more specific option types to be defined
+- Setting sets (allow saving multiple sets that can be loaded on the fly)
+
+Classes:
+SettingsProfile (dictionary of option groups)
+OptionGroup (group of related options)
+Option (individual setting, virtual base class)
+
+
+typical data
+- sensitivity = 1.0 (decimal)
+- move stick = GamePadThumbstick.Left (enum value)
+- pause button = GamePadButton.Start (enum value)
+- Center offset = (1,4) (Vector2)
+- GamePadTrigger.Left + GamePadButton.A = ModifierKey.Shift (enum) + KeyboardKey.G (enum)
