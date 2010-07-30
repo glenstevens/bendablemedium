@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsLibrary", "SettingsLibrary\SettingsLibrary.csproj", "{815C5959-7A9F-444A-A73F-6568BE841BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsLibraryTester", "SettingsLibraryTester\SettingsLibraryTester.csproj", "{AE6352BE-0273-4B49-B1DC-56980F04DD69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815C5959-7A9F-444A-A73F-6568BE841BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815C5959-7A9F-444A-A73F-6568BE841BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815C5959-7A9F-444A-A73F-6568BE841BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815C5959-7A9F-444A-A73F-6568BE841BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6352BE-0273-4B49-B1DC-56980F04DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6352BE-0273-4B49-B1DC-56980F04DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6352BE-0273-4B49-B1DC-56980F04DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6352BE-0273-4B49-B1DC-56980F04DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
