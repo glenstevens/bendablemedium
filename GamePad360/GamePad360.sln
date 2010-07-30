@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePad360.VS8", "GamePad360\GamePad360.VS8.csproj", "{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePad360", "GamePad360\GamePad360.csproj", "{12BBEE3F-AD86-4206-8BA5-225AC9384D7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

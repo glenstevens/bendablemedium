@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KernelUtilities.VS8", "KernelUtilities\KernelUtilities.VS8.csproj", "{74128504-FAFF-4C08-BCA4-3852A0FAC660}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KernelUtilities", "KernelUtilities\KernelUtilities.csproj", "{74128504-FAFF-4C08-BCA4-3852A0FAC660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KernelUtilitiesTester.VS8", "KernelUtilitiesTester\KernelUtilitiesTester.VS8.csproj", "{C4BFD461-D15A-4728-882A-9ABA33D0D711}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KernelUtilitiesTester", "KernelUtilitiesTester\KernelUtilitiesTester.csproj", "{C4BFD461-D15A-4728-882A-9ABA33D0D711}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
