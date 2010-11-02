@@ -10,7 +10,7 @@ namespace GamePad360
     /// <summary>
     /// The logic between the controller and the game
     /// </summary>
-    public class WoWLogic
+    public class GameLogic
     {
         #region Enums
         [Flags]
@@ -30,8 +30,8 @@ namespace GamePad360
         #endregion Enums
 
         GamePadThumbSticks _moveStick = GamePadThumbSticks.Left;
-        double _mouseLookSensitivity = 2.0;
-        double _cursorMoveSensitivity = 2.0;
+        float _mouseLookSensitivity = 15.0f;
+        float _cursorMoveSensitivity = 15.0f;
         //double _cursorCenterOffsetX = 0.0;
         //double _cursorCenterOffsetY = 0.0;
         bool _paused;
@@ -144,13 +144,14 @@ namespace GamePad360
         		if (Math.Abs(x) < 0.1) x = 0;
         		if (Math.Abs(y) < 0.1) y = 0;
 
-        		// BUG: cannot move in diagonals
-        		// BUG: in cursorMode the screen slowly creeps upward
         		// Update the position of the mouse, don't send mouse moves until
         		// a click is made (in cursor mode), or switch back to look mode
         		System.Drawing.Point pos = new System.Drawing.Point();
-        		pos.X = Cursor.Position.X + (int)(x * (_cursorMode ? _cursorMoveSensitivity : _mouseLookSensitivity));
-        		pos.Y = Cursor.Position.Y - (int)(y * (_cursorMode ? _cursorMoveSensitivity : _mouseLookSensitivity));
+                // Do floating point math separately to avoid rounding errors with the int math which causes creep
+                float xChange = x * (_cursorMode ? _cursorMoveSensitivity : _mouseLookSensitivity);
+                float yChange = y * (_cursorMode ? _cursorMoveSensitivity : _mouseLookSensitivity);
+                pos.X = (int)(Cursor.Position.X + xChange);
+                pos.Y = (int)(Cursor.Position.Y - yChange);
 
                 Cursor.Position = pos;
                 //if (_cursorMode)
@@ -185,9 +186,9 @@ namespace GamePad360
     		// 2. Swap look/cursor mode
 			if (pressed && key == KeyboardKeys.VK_SELECT)
     		{
-    			_cursorMode = !_cursorMode;
     			MouseUtilities.SendMouseClick(WindowHandle, Cursor.Position.X, Cursor.Position.Y, MouseButtons.Right, _cursorMode);
-    			return;
+                _cursorMode = !_cursorMode;
+                return;
     		}
 
     		// Handle normal key clicks
