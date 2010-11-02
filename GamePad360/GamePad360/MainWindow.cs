@@ -14,7 +14,7 @@ namespace GamePad360
 		GamePads _gc;
         BackgroundWorker _controllerWorker;
         BackgroundWorker _windowWorker;
-        WoWLogic _logic;
+        GameLogic _logic;
 
         volatile bool _done;
 
@@ -53,7 +53,7 @@ namespace GamePad360
 
         void InitializeLogic()
         {
-            _logic = new WoWLogic();
+            _logic = new GameLogic();
             _logic.AttachEvents(_gc);
         }
 

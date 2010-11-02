@@ -70,6 +70,7 @@
     <Compile Include="KernelUtilities\RECT.cs" />
     <Compile Include="KernelUtilities\WindowUtilities.cs" />
     <Compile Include="KernelUtilities\WMessages.cs" />
+    <Compile Include="KeyBind.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,7 +101,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="WoWLogic.cs" />
+    <Compile Include="SettingsProfile.cs" />
+    <Compile Include="GameLogic.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
