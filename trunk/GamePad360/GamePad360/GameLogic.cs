@@ -187,8 +187,8 @@ namespace GamePad360
 			if (pressed && key == KeyboardKeys.VK_SELECT)
     		{
     			MouseUtilities.SendMouseClick(WindowHandle, Cursor.Position.X, Cursor.Position.Y, MouseButtons.Right, _cursorMode);
-                _cursorMode = !_cursorMode;
-                return;
+    			_cursorMode = !_cursorMode;
+    			return;
     		}
 
     		// Handle normal key clicks
