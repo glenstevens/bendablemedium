@@ -4,10 +4,10 @@ using System.Collections;
 public class DiabloCameraController : MonoBehaviour {
 	
 	public Transform player;
-	public float horizontalAngle = 39.2f;
-	public float verticalAngle = -48.5f;
+	public float horizontalAngle = 49.8f;
+	public float verticalAngle = -42.6f;
 	public Vector3 camOffset   = new Vector3(0.0f, 0.7f, -2.4f);
-	public Vector3 closeOffset = new Vector3(0.35f, 1.7f, 0.0f);
+	public Vector3 closeOffset = new Vector3(4.0f, 8.0f, 0.0f);
 	public float maxCamDist = 1;
 
 	// Use this for initialization
@@ -20,6 +20,7 @@ public class DiabloCameraController : MonoBehaviour {
 		if (Time.deltaTime == 0 || Time.timeScale == 0 || player == null) 
 			return;
 		
+		transform.rotation = Quaternion.Euler(horizontalAngle, verticalAngle, 0);
 		Quaternion camYRotation = Quaternion.Euler(0, horizontalAngle, 0);
 		Vector3 closeCamPoint = player.position + camYRotation * closeOffset;
 		Vector3 farCamPoint = camYRotation * camOffset;
