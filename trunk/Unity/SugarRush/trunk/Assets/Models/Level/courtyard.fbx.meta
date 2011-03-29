@@ -1,0 +1,68 @@
+fileFormatVersion: 1
+guid: c72b2248b7829469995a1a8b6ffe19d8
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 1
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 0
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    polySurface669:
+    - 100004
+    - 400004
+    - 3300000
+    - 2300000
+    - 6400010
+    polySurface670:
+    - 100008
+    - 400008
+    - 3300004
+    - 2300004
+    - 6400012
+    polySurface660:
+    - 100010
+    - 400010
+    - 3300006
+    - 2300006
+    - 6400004
+    polySurface666:
+    - 100012
+    - 400012
+    - 3300008
+    - 2300008
+    - 6400006
+    polySurface668:
+    - 100014
+    - 400014
+    - 3300010
+    - 2300010
+    - 6400008
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: cliff3
+    4300002: polySurface660
+    4300004: polySurface666
+    4300006: polySurface668
+    4300008: polySurface669
+    4300010: polySurface670
+    4300012: pCube1
