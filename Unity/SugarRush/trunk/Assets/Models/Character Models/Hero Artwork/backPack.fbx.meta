@@ -1,0 +1,88 @@
+fileFormatVersion: 1
+guid: 701d8318ef6f84b1eb97d6af0a868a5d
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 0
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    rightStrap7:
+    - 100002
+    - 400002
+    rightStrap5:
+    - 100004
+    - 400004
+    rightStrapEnd:
+    - 100006
+    - 400006
+    rightStrap3:
+    - 100008
+    - 400008
+    rightStrap6:
+    - 100010
+    - 400010
+    rightStrapStart:
+    - 100012
+    - 400012
+    rightStrap4:
+    - 100014
+    - 400014
+    leftStrap6:
+    - 100016
+    - 400016
+    rightStrap2:
+    - 100018
+    - 400018
+    leftStrap4:
+    - 100020
+    - 400020
+    leftStrapEnd:
+    - 100022
+    - 400022
+    leftStrap2:
+    - 100024
+    - 400024
+    leftStrap5:
+    - 100026
+    - 400026
+    base:
+    - 100028
+    - 400028
+    leftStrap3:
+    - 100030
+    - 400030
+    polySurface36:
+    - 100032
+    - 400032
+    leftStrapStart:
+    - 100034
+    - 400034
+    root:
+    - 100036
+    - 400036
+    - 13700000
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: polySurface31
+    4300002: polySurface36

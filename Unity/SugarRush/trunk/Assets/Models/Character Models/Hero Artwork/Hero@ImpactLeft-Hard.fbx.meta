@@ -1,0 +1,271 @@
+fileFormatVersion: 1
+guid: e5d039ece29f94f50b84857166aac89a
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 0
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    LeftHandPinky1:
+    - 100000
+    - 400000
+    LeftHandPinky4:
+    - 100002
+    - 400002
+    LeftToeBase:
+    - 100004
+    - 400004
+    LeftLeg:
+    - 100006
+    - 400006
+    LeftToeTop:
+    - 100008
+    - 400008
+    LeftUpLeg:
+    - 100010
+    - 400010
+    RightToeTop:
+    - 100012
+    - 400012
+    LeftFoot:
+    - 100014
+    - 400014
+    RightToeBase:
+    - 100016
+    - 400016
+    RightFoot:
+    - 100018
+    - 400018
+    LeftGun:
+    - 100020
+    - 400020
+    //RootNode:
+    - 100022
+    - 400022
+    - 11100000
+    LeftGunTip:
+    - 100024
+    - 400024
+    RightGunTip:
+    - 100026
+    - 400026
+    RightLeg:
+    - 100028
+    - 400028
+    RightGun:
+    - 100030
+    - 400030
+    RightUpLeg:
+    - 100032
+    - 400032
+    LeftHandRing4:
+    - 100034
+    - 400034
+    LeftHandPinky3:
+    - 100036
+    - 400036
+    LeftHandRing1:
+    - 100038
+    - 400038
+    LeftHandPinky2:
+    - 100040
+    - 400040
+    LeftShoulder:
+    - 100042
+    - 400042
+    RightHandRing4:
+    - 100044
+    - 400044
+    RightHandPinky3:
+    - 100046
+    - 400046
+    RightHandRing2:
+    - 100048
+    - 400048
+    RightHandPinky1:
+    - 100050
+    - 400050
+    RightHandMiddle4:
+    - 100052
+    - 400052
+    RightHandRing3:
+    - 100054
+    - 400054
+    RightHandMiddle2:
+    - 100056
+    - 400056
+    RightHandRing1:
+    - 100058
+    - 400058
+    RightHandIndex4:
+    - 100060
+    - 400060
+    RightHandMiddle3:
+    - 100062
+    - 400062
+    RightHandIndex2:
+    - 100064
+    - 400064
+    RightHandMiddle1:
+    - 100066
+    - 400066
+    RightHandThumb4:
+    - 100068
+    - 400068
+    RightHandIndex3:
+    - 100070
+    - 400070
+    RightHandThumb2:
+    - 100072
+    - 400072
+    RightHandIndex1:
+    - 100074
+    - 400074
+    RightHand:
+    - 100076
+    - 400076
+    RightHandThumb3:
+    - 100078
+    - 400078
+    RightForeArm:
+    - 100080
+    - 400080
+    RightHandThumb1:
+    - 100082
+    - 400082
+    RightShoulder:
+    - 100084
+    - 400084
+    RightForearmRoll:
+    - 100086
+    - 400086
+    Neck:
+    - 100088
+    - 400088
+    RightArm:
+    - 100090
+    - 400090
+    Spine2:
+    - 100092
+    - 400092
+    HeadTop:
+    - 100094
+    - 400094
+    LeftHandThumb4:
+    - 100096
+    - 400096
+    LeftHand:
+    - 100098
+    - 400098
+    LeftForearmRoll:
+    - 100100
+    - 400100
+    LeftHandThumb2:
+    - 100102
+    - 400102
+    RightHandPinky2:
+    - 100104
+    - 400104
+    LeftArm:
+    - 100106
+    - 400106
+    RightHandPinky4:
+    - 100108
+    - 400108
+    LeftForeArm:
+    - 100110
+    - 400110
+    LeftHandMiddle1:
+    - 100112
+    - 400112
+    LeftHandMiddle4:
+    - 100114
+    - 400114
+    LeftHandIndex3:
+    - 100116
+    - 400116
+    LeftHandMiddle2:
+    - 100118
+    - 400118
+    LeftHandIndex1:
+    - 100120
+    - 400120
+    LeftHandIndex4:
+    - 100122
+    - 400122
+    LeftHandThumb3:
+    - 100124
+    - 400124
+    LeftHandIndex2:
+    - 100126
+    - 400126
+    LeftHandThumb1:
+    - 100128
+    - 400128
+    LeftHandMiddle3:
+    - 100130
+    - 400130
+    LeftHandRing3:
+    - 100132
+    - 400132
+    LeftHandRing2:
+    - 100134
+    - 400134
+    Head:
+    - 100136
+    - 400136
+    Spine:
+    - 100138
+    - 400138
+    Spine3:
+    - 100140
+    - 400140
+    Reference:
+    - 100142
+    - 400142
+    Spine1:
+    - 100144
+    - 400144
+    Hips:
+    - 100146
+    - 400146
+    Hero2:
+    - 100148
+    - 400148
+    - 13700000
+    locator2:
+    - 100156
+    - 400156
+    locator1:
+    - 100162
+    - 400162
+    ikHandle2:
+    - 100164
+    - 400164
+    ikHandle1:
+    - 100166
+    - 400166
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Hero1
+    4300002: Hero2
+    7400000: Take 001 //// Hero@ImpactLeft
+    7400002: Take 001 //// Hero@ImpactLeft 1
+    7400004: Take 001 //// Hero@ImpactLeft-Hard
